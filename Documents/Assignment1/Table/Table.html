@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="/Table/Table.css">
+</head>
+<body>
+   <nav>
+    <a href="../">Main Page</a>
+   </nav>
+    <div>
+       
+        <table>
+            <caption>
+                <b>
+                  Table of schools and their courses, offered in Altschool Africa.
+                </b>
+             </caption>
+            <thead>
+                <!-- Always use semantic like <thead> to structure your table for better accessibility-->
+                <tr  aria-rowspan="5" class="row1">
+                    <th scope="col">School</th>
+                    <th scope="col"></th>
+                    <th scope="col" class="bold">courses</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row2">
+                    <th scope="row">School of engineering</th>
+                    <td >Frontend engineering</td>
+                    <td>Backend engineering</td>
+                    <td>Cloud engineering</td>
+                    <td>Cybersecurity</td>
+                </tr>
+                <span class="row1">
+                <tr>
+                    <!--Use colspan or Rowspan to merge to column or two rows together-->
+                    <th scope="row">School of data</th>
+                    <td>Data analysis</td>
+                    <td>Data science</td>
+                    <td>Data engineering</td>
+                    <td></td>
+                </tr>
+                </span>
+                <tr class="row2">
+                    <th scope="row">School of product</th>
+                    <td>Product design</td>
+                    <td>Product marketing</td>
+                    <td>Product management</td>
+                </tr>
+                <span class="row1">
+                <tr>
+                    <th scope="row">School of creative economy</th>
+                    <td>Navigating the <br> music business in Africa</td>
+                    <td>Content mastery for <br> African creators</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </span>
+                <tr class="row2">
+                    <th scope="row">School of Business</th>
+                    <td>High impact selling: <br>from prospecting to closing</td>
+                    <td>Digital marketing</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

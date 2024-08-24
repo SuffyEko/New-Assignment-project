@@ -1,0 +1,22 @@
+.profile_picture{
+   
+    border-radius: 50px;
+    border: 2px solid brown;
+}
+footer{
+    color: grey;
+}
+audio{
+    background-color: blueviolet;
+    margin: 5px;
+}
+.description{
+    background-color: blueviolet;
+    color: bisque;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+body{
+    background-color: blue;
+}

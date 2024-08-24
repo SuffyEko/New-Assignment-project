@@ -1,0 +1,56 @@
+
+.Wrapper{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+input{
+    background-color: rgb(247, 243, 243);
+}
+.hover_item:hover{
+    border-radius: 5px;
+    outline: 1px solid rgb(87, 162, 206);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    
+}
+input{
+    border: none;
+    border-radius: 5px;
+    height: 56px;
+    width: 250px;
+}
+#Textarea{
+    height: 56px;
+    width: 510px;
+}
+label{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.Grid_1,
+.Grid_2,
+.Grid_3,
+.Grid_4,
+.Grid_5,
+.Grid_6
+{
+    display: flex;
+    gap: 20px;
+
+}
+button{
+    background-color: rgb(59, 150, 202);
+    color: bisque;
+    height: 56px;
+    width: 510px;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+div{
+    letter-spacing: 1px;
+}

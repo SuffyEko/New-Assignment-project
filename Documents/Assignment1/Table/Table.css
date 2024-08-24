@@ -1,0 +1,60 @@
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid blueviolet;
+   
+}
+
+
+th{
+    background-color: blueviolet;
+    color: beige;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+thead th:nth-child(1){
+    width: 25%;
+
+}
+thead th:nth-child(2){
+    width: 20%;
+}
+thead th:nth-child(3){
+    width: 30%;
+}
+thead th:nth-child(4){
+    width: 15%;
+}
+thead th:nth-last-child(5){
+    width: 10% ;
+}
+
+th{
+    letter-spacing: 2px;
+}
+td{
+    letter-spacing: 1px;
+}
+tbody td{
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(180, 170, 189);
+}
+tbody tr:nth-child(even){
+    background-color: beige;
+}
+table{
+    background-color: rgb(180, 170, 189) ;
+}
+caption b{
+    text-align: center;
+    margin: 20px;
+    padding: 20%;
+    letter-spacing: 1px;
+}
