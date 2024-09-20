@@ -2,5 +2,24 @@ a{
     text-decoration: none;
 }
 .nav{
-    gap: 10px;
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    gap: 5%;
+    margin-top: 2%;
+    text-align: center;
+    
+}
+a{
+    background-color: antiquewhite;
+    color: mediumseagreen;
+    border-radius: 4px;
+    height: 40px;
+}
+p{
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+.i.d{
+    color:red;
 }
